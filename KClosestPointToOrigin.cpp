@@ -17,9 +17,12 @@ public:
         };
 
         priority_queue<vector<int>,vector<vector<int>>,decltype(distance)> pq(distance);
+
         for (auto & point : points) {
             pq.push(point);
         }
+
+        pq.t
 
         vector<vector<int>> retValue;
         for (int j = 0;j<k;++j) {
